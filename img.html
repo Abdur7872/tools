@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Compress your images online with our responsive image compression tool. Optimize images for web use with adjustable compression levels.">
-    <meta name="keywords" content="image compression, optimize images, web image optimize, mb to kb, image low quality, image tool, web images, SEO">
-    <meta name="author" content="Abdur Rahaman Sekh">
+    <meta name="keywords" content="image compression, optimize images, image tool, mb to kb, kb quality, web images, SEO">
+    <meta name="author" content="Your Name">
     <title>Responsive Image Compression Tool</title>
     <style>
         /* Global Styles */
@@ -47,22 +47,40 @@
             gap: 15px;
         }
 
-        #compression-tool input[type="file"] {
-            padding: 10px;
-            border: 2px dashed #4CAF50;
-            border-radius: 8px;
-            text-align: center;
+        /* Stylish File Input */
+        .file-input-container {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .file-input-container input[type="file"] {
+            font-size: 100px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
             cursor: pointer;
-            background-color: #f0f0f0;
+        }
+
+        .file-input-label {
+            display: block;
+            padding: 15px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            cursor: pointer;
             transition: background-color 0.3s ease;
         }
 
-        #compression-tool input[type="file"]:hover {
-            background-color: #e0e0e0;
+        .file-input-label:hover {
+            background-color: #45a049;
         }
 
         #compression-tool button {
-            padding: 10px;
+            padding: 15px;
             border: none;
             border-radius: 8px;
             font-size: 1rem;
@@ -155,7 +173,6 @@
                 padding: 15px;
             }
 
-            #compression-tool input[type="file"],
             #compression-tool button {
                 width: 100%;
             }
@@ -176,15 +193,15 @@
         <!-- Top Ad Space -->
         <section id="ad-space-top">
             <!-- Google AdSense Ad Unit -->
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_AD_UNIT_ID"
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3655582802990974"
                     crossorigin="anonymous"></script>
             <!-- Ad Unit -->
             <ins class="adsbygoogle"
                  style="display:block"
-                 data-ad-client="ca-pub-YOUR_AD_UNIT_ID"
-                 data-ad-slot="1234567890"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
+                 data-ad-format="fluid"
+                 data-ad-layout-key="-6t+ed+2i-1n-4w"
+                 data-ad-client="ca-pub-3655582802990974"
+                 data-ad-slot="5111434879"></ins>
             <script>
                  (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
@@ -192,7 +209,12 @@
 
         <!-- Image Compression Tool -->
         <section id="compression-tool">
-            <input type="file" id="image-input" accept="image/*">
+            <!-- Stylish File Input -->
+            <div class="file-input-container">
+                <input type="file" id="image-input" accept="image/*">
+                <label for="image-input" class="file-input-label">Choose Image</label>
+            </div>
+
             <div class="slider-container">
                 <label for="compression-level">Compression Level:</label>
                 <input type="range" id="compression-level" min="0.1" max="1" step="0.1" value="0.5">
@@ -206,15 +228,15 @@
         <!-- Bottom Ad Space -->
         <section id="ad-space-bottom">
             <!-- Google AdSense Ad Unit -->
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_AD_UNIT_ID"
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3655582802990974"
                     crossorigin="anonymous"></script>
             <!-- Ad Unit -->
             <ins class="adsbygoogle"
                  style="display:block"
-                 data-ad-client="ca-pub-YOUR_AD_UNIT_ID"
-                 data-ad-slot="0987654321"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
+                 data-ad-format="fluid"
+                 data-ad-layout-key="-6t+ed+2i-1n-4w"
+                 data-ad-client="ca-pub-3655582802990974"
+                 data-ad-slot="5111434879"></ins>
             <script>
                  (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
